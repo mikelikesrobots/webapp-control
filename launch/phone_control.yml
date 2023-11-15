@@ -1,0 +1,10 @@
+launch:
+- node:
+    pkg: py_jetbot_control
+    exec: jetbot
+- node:
+    pkg: webapp_control
+    exec: iot_listener
+    param:
+    - name: path_for_config
+      value: /jetbot_complete_ws/iot_certs_and_config/iot_config.json
