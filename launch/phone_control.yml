@@ -7,4 +7,4 @@ launch:
     exec: iot_listener
     param:
     - name: path_for_config
-      value: /jetbot_complete_ws/iot_certs_and_config/iot_config.json
+      value: /FIX_ME/iot_certs_and_config/iot_config.json
