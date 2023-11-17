@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "iot_listener = webapp_control.iot_listener:main",
+            "iot_listener = webapp_control.main:main",
         ],
     },
 )
